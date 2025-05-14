@@ -24,15 +24,7 @@
         android:theme="@style/Theme.Diamonds"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity
-            android:name=".spalsh.CharacteRedeemActivity"
-            android:exported="false" />
-        <activity
-            android:name=".spalsh.BasiCalculatorActivity"
-            android:exported="false" />
-        <activity
-            android:name=".spalsh.CalEliteActivity"
-            android:exported="false" />
+
         <activity
             android:name=".spalsh.A1_SplashActivity"
             android:exported="true"
@@ -109,11 +101,7 @@
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".spalsh.RankActivity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".spalsh.RPLevelActivity"
             android:exported="false"
@@ -144,36 +132,24 @@
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
+
+
         <activity
-            android:name=".spalsh.CongratulationsActivity"
+            android:name=".spalsh.CharacteRedeemActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".spalsh.Quiz_5_Activity"
+            android:name=".spalsh.BasiCalculatorActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".spalsh.Quiz_4_Activity"
+            android:name=".spalsh.CalEliteActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".spalsh.Quiz_3_Activity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".spalsh.Quiz_2_Activity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".spalsh.Quiz_1_Activity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

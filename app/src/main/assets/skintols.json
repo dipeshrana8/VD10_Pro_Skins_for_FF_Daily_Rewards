@@ -1,0 +1,864 @@
+{
+  "Characters": {
+    "Character": [
+      {
+        "name": "Kassie",
+        "description": "Tech expert with drone deployment. Provides surveillance and buffs. Great for tactical plays.",
+        "abilities": [
+          "Scout Drone: Detects enemies in radius",
+          "Nano Support: Slight HP regen for team",
+          "Drone Mark: Highlights enemy for allies"
+        ],
+        "imagePath": "char/img_char_0.webp"
+      },
+      {
+        "name": "Clu",
+        "description": "Cyber-hacker with data manipulation skills. Disrupts enemy tech and boosts ally intel. Ideal for strategic disruption.",
+        "abilities": [
+          "Data Hack: Disables enemy drones for 5s",
+          "Info Pulse: Reveals enemy positions briefly",
+          "Tech Overload: Increases ally skill recharge rate"
+        ],
+        "imagePath": "char/img_char_1.webp"
+      },
+      {
+        "name": "LUNA",
+        "description": "Mysterious lunar warrior with energy-based attacks. Harnesses moonlight for buffs. Suitable for night-time strategies.",
+        "abilities": [
+          "Moonlight Surge: Boosts damage in low-light areas",
+          "Lunar Veil: Grants brief stealth at night",
+          "Starlight Heal: Restores slight HP under open sky"
+        ],
+        "imagePath": "char/img_char_2.webp"
+      },
+      {
+        "name": "Olivia",
+        "description": "Field medic with enhanced revive abilities. Teammates revive with more HP. Perfect for support roles.",
+        "abilities": [
+          "Healing Touch: More HP after revive",
+          "Quick Nurse: Faster revive speed",
+          "Medical Boost: Boosts medkit effect"
+        ],
+        "imagePath": "char/img_char_3.webp"
+      },
+      {
+        "name": "Shani",
+        "description": "Engineer who restores armor after kills. Gradually repairs vest. Good for extended fights.",
+        "abilities": [
+          "Gear Recycle: Restores armor HP",
+          "Reinforced Core: Boosts armor durability",
+          "Fixer: Repairs ally gear too"
+        ],
+        "imagePath": "char/img_char_4.webp"
+      },
+      {
+        "name": "Sonia",
+        "description": "Scientist with revival capability. Delays fatal damage and allows counter. Ideal for clutch plays.",
+        "abilities": [
+          "Nano Lifeline: Delays fatal hit for 3s",
+          "Survivor Boost: Slight attack boost when active",
+          "Final Spark: Counter burst before down"
+        ],
+        "imagePath": "char/img_char_5.webp"
+      },
+      {
+        "name": "Suzy",
+        "description": "Crime expert with bounty perks. Earns extra coins for kills. Perfect for store-based tactics.",
+        "abilities": [
+          "Cash Kill: Earn FF coins per kill",
+          "Silent Heist: Enemy doesn’t detect earnings",
+          "Money Magnet: Short pickup radius boost"
+        ],
+        "imagePath": "char/img_char_6.webp"
+      }
+    ],
+    "Men": [
+      {
+        "name": "Ford",
+        "description": "Former navy officer with storm resistance. Reduces damage taken outside safe zone. Great for survival strategy.",
+        "abilities": [
+          "Iron Will: Reduces zone damage",
+          "Sea Legs: Slight HP regen in danger zone",
+          "Endure: Bonus HP when outside safe zone"
+        ],
+        "imagePath": "man/img_man_0.webp"
+      },
+      {
+        "name": "Ignis",
+        "description": "Flame-wielding specialist. Unleashes a fire wall that burns enemies. Excellent for offensive pushes.",
+        "abilities": [
+          "Flame Shield: Burns Gloo Walls and enemies",
+          "Pyro Barrier: Slows down attackers",
+          "Heat Surge: Bonus damage vs cover"
+        ],
+        "imagePath": "man/img_man_1.webp"
+      },
+      {
+        "name": "Kairos",
+        "description": "Ex-soldier with EP-to-HP skills. Converts EP into HP during fights. Great for sustained duels.",
+        "abilities": [
+          "Combat Surge: Fast EP to HP conversion",
+          "Tactical Boost: Temporary armor",
+          "Military Core: Lower EP cost"
+        ],
+        "imagePath": "man/img_man_2.webp"
+      },
+      {
+        "name": "Orion",
+        "description": "Mystical warrior with shield mode. Activates a red energy shield. Avoids damage and absorbs hits.",
+        "abilities": [
+          "Crimson Shield: Invulnerable to damage briefly",
+          "Void Phase: Immune to stuns",
+          "Absorb: Restores HP from absorbed damage"
+        ],
+        "imagePath": "man/img_man_3.webp"
+      },
+      {
+        "name": "Oscar",
+        "description": "Stealth agent with mark resistance. Reduces detection from enemies. Great for sneak attacks.",
+        "abilities": [
+          "Silent Path: Cannot be marked temporarily",
+          "Fade Step: Invisibility for 1s after crouch",
+          "Mask Signal: Blocks enemy drone view"
+        ],
+        "imagePath": "man/img_man_4.webp"
+      },
+      {
+        "name": "Ryden",
+        "description": "Gadget prodigy using spider bot. Releases a bot that slows enemies. Good for control and traps.",
+        "abilities": [
+          "Spider Bot: Deploys and slows enemies",
+          "Tangle Web: Reduces enemy movement",
+          "Nano Grip: Buffs reload when bot hits"
+        ],
+        "imagePath": "man/img_man_5.webp"
+      },
+      {
+        "name": "Santino",
+        "description": "Fashion icon with teleport dash. Leaves a dummy and teleports back. Great for ambush or escape.",
+        "abilities": [
+          "Rewind Step: Create clone and return",
+          "Flash Move: Brief invulnerability",
+          "Style Step: Clone explodes on swap"
+        ],
+        "imagePath": "man/img_man_6.webp"
+      },
+      {
+        "name": "Tatsuya",
+        "description": "Agile martial artist with lightning-fast strikes. Excels in close-quarters combat. Perfect for aggressive melee tactics.",
+        "abilities": [
+          "Swift Strike: Increases melee attack speed",
+          "Dodge Reflex: Brief evasion boost after melee hit",
+          "Thunder Kick: Deals area damage on melee combo"
+        ],
+        "imagePath": "man/img_man_7.webp"
+      },
+      {
+        "name": "Wukong",
+        "description": "Monkey King with camouflage power. Transforms into a bush for stealth. Great for ambush tactics.",
+        "abilities": [
+          "Camouflage: Become a bush for 15s",
+          "Surprise Strike: Bonus damage from bush",
+          "Bush Reset: Cooldown resets on kill"
+        ],
+        "imagePath": "man/img_man_8.webp"
+      }
+    ]
+  },
+  "Pets": [
+    {
+      "name": "Agent Hop",
+      "description": "A futuristic rabbit with energy powers. Helps gather EP while moving. Great for sustainability.",
+      "abilities": [
+        "Bounce Charge: Gain EP after movement",
+        "Speedy Recovery: Recovers EP faster",
+        "Hop Guard: Temporary shield"
+      ],
+      "imagePath": "pet/img_pet_0.webp"
+    },
+    {
+      "name": "Arvon",
+      "description": "Mystic beast with dark energy. Enhances armor penetration. Ideal for aggressive playstyles.",
+      "abilities": [
+        "Pierce Power: Increases armor damage",
+        "Void Slash: Chance to ignore defense",
+        "Shadow Burst: Short range dash"
+      ],
+      "imagePath": "pet/img_pet_1.webp"
+    },
+    {
+      "name": "Beaston",
+      "description": "A powerful baboon. Boosts throwing range. Good for grenade strategies.",
+      "abilities": [
+        "Extended Arm: Longer throw distance",
+        "Launch Precision: Better grenade control",
+        "Toss Fury: Faster item use"
+      ],
+      "imagePath": "pet/img_pet_2.webp"
+    },
+    {
+      "name": "Colmillo",
+      "description": "Fierce wolf companion. Drains HP from enemies. Supports aggressive players.",
+      "abilities": [
+        "Vamp Fang: Converts damage to HP",
+        "Blood Howl: Temporarily increases damage",
+        "Pack Leader: Boosts allies’ attack"
+      ],
+      "imagePath": "pet/img_pet_3.webp"
+    },
+    {
+      "name": "Detective Panda",
+      "description": "Sleuthing panda with investigative skills. Detects enemy movements and traps. Great for tactical scouting.",
+      "abilities": [
+        "Sleuth Scan: Reveals enemy footsteps briefly",
+        "Trap Sniffer: Highlights nearby traps",
+        "Cunning Boost: Increases ally detection range"
+      ],
+      "imagePath": "pet/img_pet_4.webp"
+    },
+    {
+      "name": "Dr. Beanie",
+      "description": "Speedy pet with sharp reflexes. Increases crouch speed. Great for stealth and cover use.",
+      "abilities": [
+        "Slide Boost: Faster crouch movement",
+        "Silent Step: Reduced noise",
+        "Beanie Dash: Short quick sprint"
+      ],
+      "imagePath": "pet/img_pet_5.webp"
+    },
+    {
+      "name": "Dreki",
+      "description": "Small dragon with thermal vision. Helps spot enemies using medkits. Ideal for scouting.",
+      "abilities": [
+        "Dragon Glare: Reveal medkit users",
+        "Burn Trail: Damage over time",
+        "Wingsight: Wider vision range"
+      ],
+      "imagePath": "pet/img_pet_6.webp"
+    },
+    {
+      "name": "Falco",
+      "description": "Flight bird companion. Increases gliding and dive speed. Perfect for faster landings.",
+      "abilities": [
+        "Skyline Boost: Faster drop speed",
+        "Wing Spread: Wider view mid-air",
+        "Tactical Flight: Reduces fall damage"
+      ],
+      "imagePath": "pet/img_pet_7.webp"
+    },
+    {
+      "name": "Fang",
+      "description": "Electric tiger with a roar. Reduces damage from explosives. Protects in tight battles.",
+      "abilities": [
+        "Blast Shield: Less explosive damage",
+        "Roar Alert: Warns of grenades",
+        "Voltage Armor: Extra shield layer"
+      ],
+      "imagePath": "pet/img_pet_8.webp"
+    },
+    {
+      "name": "Finn",
+      "description": "Fish buddy with water-based powers. Boosts sprint speed after damage. Helps with escapes.",
+      "abilities": [
+        "Escape Surge: Speed after damage",
+        "Flow Armor: Reduces follow-up hits",
+        "Tidal Shift: Pushback when hit"
+      ],
+      "imagePath": "pet/img_pet_9.webp"
+    },
+    {
+      "name": "Flash",
+      "description": "Tortoise with a defensive shell. Reduces damage from behind. Helps during retreats.",
+      "abilities": [
+        "Shell Guard: Backward damage reduction",
+        "Sturdy Step: Slower but tankier",
+        "Reflect Pulse: Reflects minor damage"
+      ],
+      "imagePath": "pet/img_pet_10.webp"
+    },
+    {
+      "name": "Hoot",
+      "description": "Wise owl with vision powers. Reveals enemy traps and gear. Great for tactical play.",
+      "abilities": [
+        "Trap Scan: Detects enemy devices",
+        "Night Watch: Improves night visibility",
+        "Silent Eyes: Enemy mark range"
+      ],
+      "imagePath": "pet/img_pet_11.webp"
+    },
+    {
+      "name": "Kactus",
+      "description": "Living cactus pet. Recovers EP when stationary. Suited for defensive strategies.",
+      "abilities": [
+        "Photosynthesis: Restore EP while idle",
+        "Thorn Defense: Reflects melee damage",
+        "Root Guard: Boosts shield when still"
+      ],
+      "imagePath": "pet/img_pet_12.webp"
+    },
+    {
+      "name": "Moony",
+      "description": "Lunar-themed pet with calming aura. Enhances team morale and reduces debuffs. Ideal for support roles.",
+      "abilities": [
+        "Moon Glow: Boosts ally morale briefly",
+        "Calm Aura: Reduces debuff duration for team",
+        "Lunar Shield: Grants minor damage resistance"
+      ],
+      "imagePath": "pet/img_pet_13.webp"
+    }
+  ],
+  "Weapons": [
+    {
+      "name": "AN94",
+      "description": "Versatile assault rifle with balanced stats. High fire rate and moderate damage. Ideal for mid-range combat.",
+      "abilities": [
+        "Rapid Fire: Increases fire rate briefly",
+        "Stable Grip: Reduces recoil",
+        "Quick Reload: Faster magazine swap"
+      ],
+      "imagePath": "weapons/img_weapons_0.webp"
+    },
+    {
+      "name": "AWM",
+      "description": "High-damage sniper rifle for long-range combat. One-shot potential with precise aim. Suited for skilled marksmen.",
+      "abilities": [
+        "Piercing Shot: Ignores partial armor",
+        "Focus Scope: Reduces aim sway",
+        "Critical Hit: Bonus headshot damage"
+      ],
+      "imagePath": "weapons/img_weapons_1.webp"
+    },
+    {
+      "name": "Bizon",
+      "description": "Submachine gun with high fire rate. Excels in close-quarters combat. Perfect for aggressive playstyles.",
+      "abilities": [
+        "Bullet Spray: Increases magazine capacity",
+        "Fast Draw: Quicker weapon switch",
+        "Rush Boost: Slight movement speed during fire"
+      ],
+      "imagePath": "weapons/img_weapons_2.webp"
+    },
+    {
+      "name": "CG15",
+      "description": "Energy-based weapon with charged shots. Deals bonus damage to shields. Great for tactical engagements.",
+      "abilities": [
+        "Energy Burst: Extra damage to shields",
+        "Charge Pulse: Stuns enemies briefly on hit",
+        "Overcharge: Increases next shot damage"
+      ],
+      "imagePath": "weapons/img_weapons_3.webp"
+    },
+    {
+      "name": "Gatling",
+      "description": "Heavy weapon with rapid, sustained fire. High ammo capacity for suppression. Ideal for holding positions.",
+      "abilities": [
+        "Barrage: Continuous fire without overheat",
+        "Heavy Impact: Slows enemies on hit",
+        "Fortified Stance: Reduces recoil while stationary"
+      ],
+      "imagePath": "weapons/img_weapons_4.webp"
+    },
+    {
+      "name": "Shield Gun",
+      "description": "Defensive weapon that projects a temporary energy shield. Balances damage and protection. Suited for team support.",
+      "abilities": [
+        "Energy Barrier: Deploys brief shield",
+        "Deflect Shot: Reflects minor projectile damage",
+        "Shielded Reload: Faster reload behind barrier"
+      ],
+      "imagePath": "weapons/img_weapons_5.webp"
+    },
+    {
+      "name": "Trogon",
+      "description": "Hybrid shotgun with mid-range versatility. High burst damage with spread control. Great for dynamic fights.",
+      "abilities": [
+        "Tight Spread: Reduces pellet spread",
+        "Slug Shot: Increases range briefly",
+        "Impact Force: Knocks back enemies on hit"
+      ],
+      "imagePath": "weapons/img_weapons_6.webp"
+    },
+    {
+      "name": "VSK94",
+      "description": "Sniper rifle with moderate damage and faster handling. Quick follow-up shots. Ideal for mobile snipers.",
+      "abilities": [
+        "Quick Scope: Faster aim-down-sight speed",
+        "Steady Aim: Reduces sway during movement",
+        "Pierce: Slight armor penetration"
+      ],
+      "imagePath": "weapons/img_weapons_7.webp"
+    }
+  ],
+  "Projectiles": [
+    {
+      "name": "FGL-24",
+      "description": "Explosive grenade launcher with area damage. High impact for clearing groups. Suited for aggressive plays.",
+      "abilities": [
+        "Blast Radius: Increased explosion area",
+        "Shockwave: Slows enemies in blast zone",
+        "Quick Toss: Faster projectile deployment"
+      ],
+      "imagePath": "weapons/img_pro_0.webp"
+    },
+    {
+      "name": "Flamethrower",
+      "description": "Short-range weapon that deals continuous fire damage. Burns through cover. Ideal for close-quarters control.",
+      "abilities": [
+        "Inferno Stream: Burns enemies over time",
+        "Cover Melt: Damages Gloo Walls",
+        "Heat Wave: Slows enemies in range"
+      ],
+      "imagePath": "weapons/img_pro_1.webp"
+    },
+    {
+      "name": "Flash Freeze",
+      "description": "Cryogenic projectile that slows or immobilizes enemies. Creates ice patches. Great for area denial.",
+      "abilities": [
+        "Frost Bind: Slows enemies on impact",
+        "Ice Patch: Creates slippery terrain",
+        "Chill Effect: Reduces enemy reload speed"
+      ],
+      "imagePath": "weapons/img_pro_2.webp"
+    },
+    {
+      "name": "FF Knife",
+      "description": "Throwing knife for quick, precise attacks. High damage on direct hits. Perfect for stealth eliminations.",
+      "abilities": [
+        "Silent Throw: Undetectable by enemies",
+        "Critical Strike: Bonus damage on headshots",
+        "Quick Draw: Faster knife throw rate"
+      ],
+      "imagePath": "weapons/img_pro_3.webp"
+    },
+    {
+      "name": "Gloo Melter",
+      "description": "Specialized projectile that dissolves Gloo Walls. Disrupts enemy defenses. Ideal for countering fortifications.",
+      "abilities": [
+        "Wall Dissolve: Destroys Gloo Walls instantly",
+        "Corrosive Splash: Damages nearby enemies",
+        "Fast Reload: Quicker projectile recharge"
+      ],
+      "imagePath": "weapons/img_pro_4.webp"
+    },
+    {
+      "name": "Gloo Wall",
+      "description": "Deployable cover with unique design (e.g., Death Incoming, Cute Mera, Sonic Eye, Dragon Seal). Essential for defense.",
+      "abilities": [
+        "Reinforced: Increased HP",
+        "Fast Deploy: Reduced placement delay",
+        "Shield Pulse: Reflects slight damage"
+      ],
+      "imagePath": "weapons/img_pro_5.webp"
+    },
+    {
+      "name": "Grenade",
+      "description": "Standard explosive projectile for area damage. Versatile for flushing out enemies. Suited for all playstyles.",
+      "abilities": [
+        "Blast Surge: Increased explosion radius",
+        "Fragmentation: Extra damage over time",
+        "Quick Lob: Faster throw animation"
+      ],
+      "imagePath": "weapons/img_pro_6.webp"
+    },
+    {
+      "name": "Katana",
+      "description": "Melee projectile for close-range combat. High damage with swift strikes. Perfect for aggressive melee tactics.",
+      "abilities": [
+        "Blade Dash: Quick forward lunge",
+        "Slash Combo: Bonus damage on consecutive hits",
+        "Deflect: Blocks minor projectile damage"
+      ],
+      "imagePath": "weapons/img_pro_7.webp"
+    }
+  ],
+  "Vehicles": [
+    {
+      "name": "Pickup Truck",
+      "description": "Durable vehicle for squad transport. High capacity and defense. Ideal for team mobility.",
+      "abilities": [
+        "Armored Frame: Increased vehicle HP",
+        "Squad Boost: Slight team HP regen",
+        "Rough Terrain: Improved handling"
+      ],
+      "imagePath": "vehicle/img_vehicle_0.webp"
+    },
+    {
+      "name": "Monster Truck",
+      "description": "Heavy-duty vehicle with rugged design. High durability and terrain handling. Great for rough landscapes.",
+      "abilities": [
+        "Crush Guard: High damage resistance",
+        "Terrain Master: No speed loss off-road",
+        "Shock Absorb: Reduces passenger damage"
+      ],
+      "imagePath": "vehicle/img_vehicle_1.webp"
+    },
+    {
+      "name": "Speed Car",
+      "description": "Sleek car built for speed. Boosts sprint speed. Suited for quick escapes.",
+      "abilities": [
+        "Nitro Boost: Temporary speed surge",
+        "Aerodynamic: Faster base speed",
+        "Quick Turn: Improved handling"
+      ],
+      "imagePath": "vehicle/img_vehicle_2.webp"
+    },
+    {
+      "name": "Tuk Tuk",
+      "description": "Compact vehicle for quick transport. Agile with moderate capacity. Perfect for urban areas.",
+      "abilities": [
+        "Nimble Drive: Enhanced maneuverability",
+        "Compact Frame: Reduced detection",
+        "Fast Exit: Quicker passenger dismount"
+      ],
+      "imagePath": "vehicle/img_vehicle_3.webp"
+    },
+    {
+      "name": "Jeep",
+      "description": "Versatile vehicle for all terrains. Balanced speed and durability. Great for squad strategies.",
+      "abilities": [
+        "All-Terrain: Balanced off-road speed",
+        "Reinforced: Moderate damage resistance",
+        "Team Sync: Slight team stamina regen"
+      ],
+      "imagePath": "vehicle/img_vehicle_4.webp"
+    },
+    {
+      "name": "Sport Bike",
+      "description": "Fast motorcycle for solo travel. High speed and agility. Ideal for rapid repositioning.",
+      "abilities": [
+        "Speed Surge: High sprint speed",
+        "Lean Control: Sharp turning",
+        "Quick Mount: Faster entry/exit"
+      ],
+      "imagePath": "vehicle/img_vehicle_5.webp"
+    },
+    {
+      "name": "Sport Car",
+      "description": "High-performance car for rapid movement. Fast with low defense. Suited for aggressive plays.",
+      "abilities": [
+        "Overdrive: Extreme speed boost",
+        "Sleek Design: Reduced drag",
+        "Drift Master: Enhanced cornering"
+      ],
+      "imagePath": "vehicle/img_vehicle_6.webp"
+    },
+    {
+      "name": "Vintage Car",
+      "description": "Classic design with moderate speed and durability. Suitable for stylish transport.",
+      "abilities": [
+        "Classic Frame: Moderate vehicle HP",
+        "Smooth Ride: Improved handling",
+        "Retro Boost: Slight speed increase"
+      ],
+      "imagePath": "vehicle/img_vehicle_7.webp"
+    }
+  ],
+  "Emotes": [
+    {
+      "name": "Aim Fire",
+      "description": "Combat-ready stance with weapon aiming animation. Shows precise targeting focus. Often used before engagements.",
+      "abilities": [
+        "Quick Scope: Faster aiming animation",
+        "Target Lock: Highlights enemies briefly",
+        "Steady Hands: Reduced sway effect"
+      ],
+      "imagePath": "emotes/img_rare_0.webp"
+    },
+    {
+      "name": "Applause",
+      "description": "Cheering animation clapping hands. Celebrates victories or good plays. Increases team spirit.",
+      "abilities": [
+        "Encore: Boosts nearby ally reload speed",
+        "Motivation: Reduces skill cooldowns",
+        "Attention Grab: Enemies may focus you"
+      ],
+      "imagePath": "emotes/img_rare_1.webp"
+    },
+    {
+      "name": "Arm Wave",
+      "description": "Energetic arm-waving greeting animation. Used to signal or cheer. Expresses friendliness or celebration.",
+      "abilities": [
+        "Wave Burst: Nearby allies gain energy",
+        "Signal Boost: Increases visibility briefly",
+        "High Morale: Boosts nearby HP regen"
+      ],
+      "imagePath": "emotes/img_rare_2.webp"
+    },
+    {
+      "name": "Bon Appetit",
+      "description": "Mimics enjoying a delicious meal. Funny and lighthearted. Used in post-victory celebrations.",
+      "abilities": [
+        "Feast Mode: HP regen starts",
+        "Flavor Blast: Slight damage boost",
+        "Table Manners: Enemy taunt chance"
+      ],
+      "imagePath": "emotes/img_rare_4.webp"
+    },
+    {
+      "name": "Bring It On",
+      "description": "Taunting stance challenging enemies. Full of confidence. Used to provoke opponents.",
+      "abilities": [
+        "Aggro Pull: Enemies target you",
+        "Confidence Surge: Defense up",
+        "Provoker: Reduces enemy evasion"
+      ],
+      "imagePath": "emotes/img_rare_5.webp"
+    },
+    {
+      "name": "Chicken",
+      "description": "Flapping arms and clucking like a chicken. Mocking and humorous. Great for distracting opponents.",
+      "abilities": [
+        "Mock Move: Confuses enemies",
+        "Feather Shield: Minor damage reduction",
+        "Cluck Boost: Team speed up"
+      ],
+      "imagePath": "emotes/img_rare_6.webp"
+    },
+    {
+      "name": "Dab",
+      "description": "Quick dab motion popular in dances. Modern celebration style. Used after successful plays.",
+      "abilities": [
+        "Flash Style: Dodge chance up",
+        "Momentum Gain: Movement speed up",
+        "Hype Effect: Boosts nearby attack speed"
+      ],
+      "imagePath": "emotes/img_rare_7.webp"
+    },
+    {
+      "name": "Dust Off",
+      "description": "Brushing shoulders clean motion. Confident victory celebration. Removes negative status effects.",
+      "abilities": [
+        "Clean Slate: Removes debuffs",
+        "Pride: Temporary armor increase",
+        "Showoff: Critical hit chance boost"
+      ],
+      "imagePath": "emotes/img_rare_8.webp"
+    }
+  ],
+  "Rare": [
+    {
+      "name": "Dust Off",
+      "description": "Brushing shoulders clean motion. Confident victory celebration. Removes negative status effects.",
+      "abilities": [
+        "Clean Slate: Removes debuffs",
+        "Pride: Temporary armor increase",
+        "Showoff: Critical hit chance boost"
+      ],
+      "imagePath": "rare/img_rare_0.webp"
+    },
+    {
+      "name": "Furious Slam",
+      "description": "Aggressive animation with a powerful ground slam. Intimidates enemies and boosts morale. Ideal for post-kill taunts.",
+      "abilities": [
+        "Shockwave: Stuns nearby enemies briefly",
+        "Rage Boost: Increases damage briefly",
+        "Intimidate: Reduces enemy accuracy"
+      ],
+      "imagePath": "rare/img_rare_1.webp"
+    },
+    {
+      "name": "Greetings",
+      "description": "A respectful hand gesture or wave. Used to acknowledge teammates or opponents. Friendly and sportsmanlike.",
+      "abilities": [
+        "First Impression: Boosts ally morale",
+        "Attention Call: Highlights your location",
+        "Peaceful Aura: Reduces incoming aggro"
+      ],
+      "imagePath": "rare/img_rare_2.webp"
+    },
+    {
+      "name": "I Hate U",
+      "description": "A dramatic gesture expressing dislike. Used to taunt or tease enemies. Bold and provocative.",
+      "abilities": [
+        "Spite: Increases critical chance",
+        "Fury: Boosts damage briefly",
+        "Disrespect: Reduces enemy focus"
+      ],
+      "imagePath": "rare/img_rare_3.webp"
+    },
+    {
+      "name": "Kungfu",
+      "description": "Martial arts stance with combo moves. Stylish and powerful. Used to show off combat prowess.",
+      "abilities": [
+        "Strike Boost: Increases melee damage",
+        "Focus Mode: Brief evasion boost",
+        "Balance: Reduces recoil"
+      ],
+      "imagePath": "rare/img_rare_4.webp"
+    },
+    {
+      "name": "LOL",
+      "description": "Laughing animation holding stomach. Mocking defeated opponents. Boosts team morale slightly.",
+      "abilities": [
+        "Morale Boost: Team reload speed up",
+        "Taunt: Increased enemy aggression",
+        "Joyful: Health regen during animation"
+      ],
+      "imagePath": "rare/img_rare_5.webp"
+    },
+    {
+      "name": "Make It Rain",
+      "description": "Throwing money in the air. Flashy and showy animation. Celebrates big wins or high scores.",
+      "abilities": [
+        "Wealth Boost: Temporary gold gain",
+        "Attraction: Enemies drawn to you",
+        "High Roller: Increases item drop chance"
+      ],
+      "imagePath": "rare/img_rare_6.webp"
+    },
+    {
+      "name": "Mind It",
+      "description": "Cautionary gesture warning enemies. Conveys confidence and control. Great for psychological play.",
+      "abilities": [
+        "Warning Signal: Reduces enemy movement speed",
+        "Focus Aura: Boosts ally accuracy",
+        "Taunt Pulse: Draws enemy attention"
+      ],
+      "imagePath": "rare/img_rare_7.webp"
+    },
+    {
+      "name": "Shuffling",
+      "description": "Energetic dance with rapid footwork. Boosts team morale and distracts enemies. Perfect for celebrations.",
+      "abilities": [
+        "Rhythm Boost: Increases team movement speed",
+        "Distraction: Reduces enemy aim accuracy",
+        "Dance Vibe: Shortens skill cooldowns"
+      ],
+      "imagePath": "rare/img_rare_8.webp"
+    },
+    {
+      "name": "Top Scorer",
+      "description": "Victory gesture holding a trophy. Celebrates being MVP or top player. Inspires teammates.",
+      "abilities": [
+        "Inspire: Team damage boost",
+        "Pride Shield: Minor armor buff",
+        "Spotlight: Slightly increases visibility"
+      ],
+      "imagePath": "rare/img_rare_9.webp"
+    }
+  ],
+  "Advance": [
+    {
+      "name": "Wiggle Walk",
+      "description": "Playful walking animation with exaggerated hip movements. Boosts team morale and distracts enemies. Great for lighthearted moments.",
+      "abilities": [
+        "Cheer Boost: Increases ally morale",
+        "Distract Step: Reduces enemy accuracy",
+        "Quick Strut: Slight movement speed boost"
+      ],
+      "imagePath": "advance/img_adv_0.webp"
+    },
+    {
+      "name": "Top DJ",
+      "description": "Scratching records on turntables. Party vibe with beats. Used to hype up the team.",
+      "abilities": [
+        "Beat Drop: Boosts ally attack speed",
+        "Sound Shield: Reduces debuff duration",
+        "Rhythm Flow: Short cooldown reduction"
+      ],
+      "imagePath": "advance/img_adv_1.webp"
+    },
+    {
+      "name": "Threaten",
+      "description": "Intimidating gesture to provoke enemies. Exudes dominance and draws attention. Ideal for aggressive taunts.",
+      "abilities": [
+        "Fear Factor: Reduces enemy movement speed",
+        "Aggro Draw: Enemies target you",
+        "Power Stance: Boosts damage briefly"
+      ],
+      "imagePath": "advance/img_adv_2.webp"
+    },
+    {
+      "name": "The Swan",
+      "description": "Graceful, elegant dance inspired by a swan. Calms allies and distracts enemies. Perfect for stylish plays.",
+      "abilities": [
+        "Grace Aura: Reduces ally debuff duration",
+        "Elegant Distraction: Lowers enemy accuracy",
+        "Serene Boost: Slight HP regen for team"
+      ],
+      "imagePath": "advance/img_adv_3.webp"
+    },
+    {
+      "name": "Tease Waggore",
+      "description": "Mocking animation with playful gestures. Taunts enemies and boosts ally confidence. Great for psychological warfare.",
+      "abilities": [
+        "Mocking Taunt: Increases enemy aggression",
+        "Confidence Wave: Boosts ally damage",
+        "Quick Tease: Reduces skill cooldown"
+      ],
+      "imagePath": "advance/img_adv_4.webp"
+    },
+    {
+      "name": "Tea Time",
+      "description": "Relaxed animation of sipping tea. Calms allies and mocks enemies. Ideal for post-victory relaxation.",
+      "abilities": [
+        "Calm Sip: Restores slight HP for team",
+        "Mock Sip: Reduces enemy morale",
+        "Steady Hand: Boosts ally accuracy"
+      ],
+      "imagePath": "advance/img_adv_5.webp"
+    },
+    {
+      "name": "Switching Steps",
+      "description": "Dynamic dance with quick footwork. Increases team agility and distracts enemies. Perfect for high-energy moments.",
+      "abilities": [
+        "Agile Step: Boosts team movement speed",
+        "Dance Distraction: Reduces enemy aim",
+        "Rhythm Surge: Shortens skill cooldown"
+      ],
+      "imagePath": "advance/img_adv_6.webp"
+    },
+    {
+      "name": "Soul Shaking",
+      "description": "Vibrant, energetic dance that uplifts allies and taunts enemies. Great for boosting team spirit after wins.",
+      "abilities": [
+        "Soul Boost: Increases team attack speed",
+        "Taunt Vibe: Draws enemy attention",
+        "Energy Pulse: Slight HP regen for allies"
+      ],
+      "imagePath": "advance/img_adv_7.webp"
+    }
+  ],
+  "Maps": [
+    {
+      "name": "Bermuda",
+      "description": "Classic map with diverse terrain. Features urban areas, open fields, and coastal zones. Balanced for all playstyles.",
+      "abilities": [
+        "Versatile Terrain: Slightly increased movement speed in urban areas",
+        "Resource Abundance: Higher loot spawn rate",
+        "Coastal Recovery: Slight HP regen near water"
+      ],
+      "imagePath": "maps/img_map_0.webp"
+    },
+    {
+      "name": "Kalahari",
+      "description": "Desert map with open spaces. Suited for snipers and vehicle-based strategies. Challenging due to sparse cover.",
+      "abilities": [
+        "Desert Vision: Improved visibility in sandstorms",
+        "Sniper’s Haven: Increased sniper rifle accuracy",
+        "Vehicle Boost: Faster vehicle speed on open terrain"
+      ],
+      "imagePath": "maps/img_map_1.webp"
+    },
+    {
+      "name": "Purgatory",
+      "description": "Mixed terrain with water and hills. Ideal for stealth and ambush tactics. Features dense foliage and elevation.",
+      "abilities": [
+        "Foliage Cover: Reduced detection in grassy areas",
+        "Ambush Advantage: Bonus damage from elevated positions",
+        "Water Glide: Faster movement in water"
+      ],
+      "imagePath": "maps/img_map_2.webp"
+    },
+    {
+      "name": "Alpine",
+      "description": "Snowy map with verticality. Favors mobility and scouting strategies. Cold environment with urban and open areas.",
+      "abilities": [
+        "Snow Camouflage: Reduced visibility in snowy areas",
+        "Vertical Edge: Faster climbing on cliffs",
+        "Frost Resistance: Reduced zone damage in cold areas"
+      ],
+      "imagePath": "maps/img_map_3.webp"
+    }
+  ]
+}

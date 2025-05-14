@@ -1,0 +1,119 @@
+package com.ffskin.vault.elitecustomizer.spalsh;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.ffskin.vault.elitecustomizer.R;
+import com.ffskin.vault.elitecustomizer.databinding.ActivitySelectModeBinding;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class PlayerCategoryActivity extends BaseActivity {
+
+    List<String> gameModes = Arrays.asList(
+            "Pro Player",
+            "Mix Player",
+            "Casual Player",
+            "New Player",
+            "Beginner"
+    );
+
+    ActivitySelectModeBinding binding;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        toolbarHeaderText = "Player Category";
+        super.onCreate(savedInstanceState);
+
+        binding = ActivitySelectModeBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        binding.btnBack.setOnClickListener(v -> myBackActivity());
+
+        binding.recyclerModes.setLayoutManager(new GridLayoutManager(this, 1));
+
+        GameModeAdapter adapter = new GameModeAdapter(gameModes);
+        binding.recyclerModes.setAdapter(adapter);
+        binding.btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(PlayerCategoryActivity.this, SelectDayActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        myBackActivity();
+    }
+
+    public class GameModeAdapter extends RecyclerView.Adapter<GameModeAdapter.ViewHolder> {
+
+        private final List<String> modeList;
+        private int selectedPosition = 0;
+
+        public GameModeAdapter(List<String> modeList) {
+            this.modeList = modeList;
+        }
+
+        @NonNull
+        @Override
+        public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_language, parent, false);
+            return new ViewHolder(view);
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+            String mode = modeList.get(position);
+            holder.txtMode.setText(mode);
+
+            if (selectedPosition == position) {
+                holder.itemLayout.setBackgroundResource(R.drawable.bg_country_select);
+                holder.imgSelect.setImageResource(R.drawable.ic_selected);
+
+            } else {
+                holder.itemLayout.setBackgroundResource(R.drawable.bg_country_unselect);
+                holder.imgSelect.setImageResource(R.drawable.ic_unselected);
+
+            }
+
+            holder.itemLayout.setOnClickListener(v -> {
+                selectedPosition = holder.getAdapterPosition();
+                notifyDataSetChanged();
+            });
+        }
+
+        @Override
+        public int getItemCount() {
+            return modeList.size();
+        }
+
+        public class ViewHolder extends RecyclerView.ViewHolder {
+            TextView txtMode;
+            LinearLayout itemLayout;
+            ImageView imgSelect;
+
+            public ViewHolder(@NonNull View itemView) {
+                super(itemView);
+                txtMode = itemView.findViewById(R.id.languageName);
+                itemLayout = itemView.findViewById(R.id.itemLayout);
+                imgSelect = itemView.findViewById(R.id.imgSelect);
+            }
+        }
+    }
+}
