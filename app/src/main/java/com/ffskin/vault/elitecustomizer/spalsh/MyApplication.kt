@@ -48,7 +48,7 @@ class MyApplication : MyController() {
         remoteConfig.fetchAndActivate().addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 try {
-                    val jsonString = remoteConfig.getString("comgetdailydiamondslivefreedaily")
+                    val jsonString = remoteConfig.getString("comgetfreediamonds")
 
                     Log.d("RemoteConfig", "Fetched JSON: $jsonString")
 
@@ -77,10 +77,10 @@ class MyApplication : MyController() {
                         AdsPreference.setappopen_redirect(selectedLink)
                     }
 
-                    val privacyPolicyUrl = jsonObject.optString("privacy_policy_url", "")
+                    val privacyPolicyUrl = jsonObject.optString("privacy_policy_link", "")
                     AdsPreference.setPrivacyPolicyUrl(privacyPolicyUrl)
 
-                    val oneSignalAppId = jsonObject.optString("onesignal_app_id", "")
+                    val oneSignalAppId = jsonObject.optString("onesignal_id", "")
                     AdsPreference.setOneSignalAppId(oneSignalAppId)
 
 

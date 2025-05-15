@@ -316,7 +316,7 @@
         "Stable Grip: Reduces recoil",
         "Quick Reload: Faster magazine swap"
       ],
-      "imagePath": "weapons/img_weapons_0.webp"
+      "imagePath": "wep/img_weapons_0.webp"
     },
     {
       "name": "AWM",
@@ -326,7 +326,7 @@
         "Focus Scope: Reduces aim sway",
         "Critical Hit: Bonus headshot damage"
       ],
-      "imagePath": "weapons/img_weapons_1.webp"
+      "imagePath": "wep/img_weapons_1.webp"
     },
     {
       "name": "Bizon",
@@ -336,7 +336,7 @@
         "Fast Draw: Quicker weapon switch",
         "Rush Boost: Slight movement speed during fire"
       ],
-      "imagePath": "weapons/img_weapons_2.webp"
+      "imagePath": "wep/img_weapons_2.webp"
     },
     {
       "name": "CG15",
@@ -346,7 +346,7 @@
         "Charge Pulse: Stuns enemies briefly on hit",
         "Overcharge: Increases next shot damage"
       ],
-      "imagePath": "weapons/img_weapons_3.webp"
+      "imagePath": "wep/img_weapons_3.webp"
     },
     {
       "name": "Gatling",
@@ -356,7 +356,7 @@
         "Heavy Impact: Slows enemies on hit",
         "Fortified Stance: Reduces recoil while stationary"
       ],
-      "imagePath": "weapons/img_weapons_4.webp"
+      "imagePath": "wep/img_weapons_4.webp"
     },
     {
       "name": "Shield Gun",
@@ -366,7 +366,7 @@
         "Deflect Shot: Reflects minor projectile damage",
         "Shielded Reload: Faster reload behind barrier"
       ],
-      "imagePath": "weapons/img_weapons_5.webp"
+      "imagePath": "wep/img_weapons_5.webp"
     },
     {
       "name": "Trogon",
@@ -376,7 +376,7 @@
         "Slug Shot: Increases range briefly",
         "Impact Force: Knocks back enemies on hit"
       ],
-      "imagePath": "weapons/img_weapons_6.webp"
+      "imagePath": "wep/img_weapons_6.webp"
     },
     {
       "name": "VSK94",
@@ -386,7 +386,7 @@
         "Steady Aim: Reduces sway during movement",
         "Pierce: Slight armor penetration"
       ],
-      "imagePath": "weapons/img_weapons_7.webp"
+      "imagePath": "wep/img_weapons_7.webp"
     }
   ],
   "Projectiles": [
@@ -398,7 +398,7 @@
         "Shockwave: Slows enemies in blast zone",
         "Quick Toss: Faster projectile deployment"
       ],
-      "imagePath": "weapons/img_pro_0.webp"
+      "imagePath": "projectiles/img_pro_0.webp"
     },
     {
       "name": "Flamethrower",
@@ -408,7 +408,7 @@
         "Cover Melt: Damages Gloo Walls",
         "Heat Wave: Slows enemies in range"
       ],
-      "imagePath": "weapons/img_pro_1.webp"
+      "imagePath": "projectiles/img_pro_1.webp"
     },
     {
       "name": "Flash Freeze",
@@ -418,7 +418,7 @@
         "Ice Patch: Creates slippery terrain",
         "Chill Effect: Reduces enemy reload speed"
       ],
-      "imagePath": "weapons/img_pro_2.webp"
+      "imagePath": "projectiles/img_pro_2.webp"
     },
     {
       "name": "FF Knife",
@@ -428,7 +428,7 @@
         "Critical Strike: Bonus damage on headshots",
         "Quick Draw: Faster knife throw rate"
       ],
-      "imagePath": "weapons/img_pro_3.webp"
+      "imagePath": "projectiles/img_pro_3.webp"
     },
     {
       "name": "Gloo Melter",
@@ -438,7 +438,7 @@
         "Corrosive Splash: Damages nearby enemies",
         "Fast Reload: Quicker projectile recharge"
       ],
-      "imagePath": "weapons/img_pro_4.webp"
+      "imagePath": "projectiles/img_pro_4.webp"
     },
     {
       "name": "Gloo Wall",
@@ -448,7 +448,7 @@
         "Fast Deploy: Reduced placement delay",
         "Shield Pulse: Reflects slight damage"
       ],
-      "imagePath": "weapons/img_pro_5.webp"
+      "imagePath": "projectiles/img_pro_5.webp"
     },
     {
       "name": "Grenade",
@@ -458,7 +458,7 @@
         "Fragmentation: Extra damage over time",
         "Quick Lob: Faster throw animation"
       ],
-      "imagePath": "weapons/img_pro_6.webp"
+      "imagePath": "projectiles/img_pro_6.webp"
     },
     {
       "name": "Katana",
@@ -468,7 +468,7 @@
         "Slash Combo: Bonus damage on consecutive hits",
         "Deflect: Blocks minor projectile damage"
       ],
-      "imagePath": "weapons/img_pro_7.webp"
+      "imagePath": "projectiles/img_pro_7.webp"
     }
   ],
   "Vehicles": [

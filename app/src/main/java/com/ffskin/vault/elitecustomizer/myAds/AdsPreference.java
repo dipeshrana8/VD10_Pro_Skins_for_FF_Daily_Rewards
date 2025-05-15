@@ -19,8 +19,8 @@ public class AdsPreference {
     private static final String NATIVE_LINK_KEY = "native_link";
 
     // New keys
-    private static final String PRIVACY_POLICY_KEY = "privacy_policy_url";
-    private static final String ONESIGNAL_APP_ID_KEY = "onesignal_app_id";
+    private static final String PRIVACY_POLICY_KEY = "privacy_policy_link";
+    private static final String ONESIGNAL_APP_ID_KEY = "onesignal_id";
 
     private static SharedPreferences preference() {
         return MyController.get().getSharedPreferences("adController", Context.MODE_PRIVATE);

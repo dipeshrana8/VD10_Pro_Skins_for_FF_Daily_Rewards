@@ -52,10 +52,9 @@ public class CharacterListActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 WebNavigationUtils.WebInterstitial(CharacterListActivity.this);
-                binding.btnManChar.setVisibility(GONE);
                 characterList = loadCharactersFromJson("Men");
                 setupRecyclerView();
-
+                binding.btnManChar.setVisibility(GONE);
             }
         });
 
@@ -64,9 +63,9 @@ public class CharacterListActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 WebNavigationUtils.WebInterstitial(CharacterListActivity.this);
-                binding.btnManChar.setVisibility(GONE);
                 characterList = loadCharactersFromJson("Projectiles");
                 setupRecyclerView();
+                binding.btnProjectiles.setVisibility(GONE);
 
             }
         });
@@ -75,10 +74,9 @@ public class CharacterListActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 WebNavigationUtils.WebInterstitial(CharacterListActivity.this);
-                binding.btnManChar.setVisibility(GONE);
                 characterList = loadCharactersFromJson("Rare");
                 setupRecyclerView();
-
+                binding.btnRareEmotes.setVisibility(GONE);
             }
         });
 
@@ -87,10 +85,9 @@ public class CharacterListActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 WebNavigationUtils.WebInterstitial(CharacterListActivity.this);
-                binding.btnManChar.setVisibility(GONE);
                 characterList = loadCharactersFromJson("Advance");
                 setupRecyclerView();
-
+                binding.btnAdvanceEmotes.setVisibility(GONE);
             }
         });
         if (category.equals("Emotes")) {
@@ -103,33 +100,7 @@ public class CharacterListActivity extends BaseActivity {
         }
     }
 
-//    private ArrayList<Character> loadCharactersFromJson(String category) {
-//        ArrayList<Character> characters = new ArrayList<>();
-//        try {
-//            String json = loadJSONFromAsset("skintols.json");
-//            JSONObject jsonObject = new JSONObject(json);
-//            JSONArray categories = jsonObject.getJSONArray("Characters");
-//            for (int i = 0; i < categories.length(); i++) {
-//                JSONObject cat = categories.getJSONObject(i);
-//                if (cat.getString("name").equals(category)) {
-//                    JSONArray chars = cat.getJSONArray("items");
-//                    for (int j = 0; j < chars.length(); j++) {
-//                        JSONObject character = chars.getJSONObject(j);
-//                        characters.add(new Character(
-//                                character.getString("name"),
-//                                character.getString("description"),
-//                                character.getString("ability"),
-//                                character.getString("imagePath")
-//                        ));
-//                    }
-//                    break;
-//                }
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return characters;
-//    }
+
 
 
     private ArrayList<Character> loadCharactersFromJson(String category) {
@@ -161,7 +132,6 @@ public class CharacterListActivity extends BaseActivity {
                     ));
                 }
             } else {
-                // Handle other top-level categories (Pets, Weapons, Projectiles, etc.)
                 JSONArray items = jsonObject.getJSONArray(category);
                 for (int i = 0; i < items.length(); i++) {
                     JSONObject item = items.getJSONObject(i);

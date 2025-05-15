@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ffskin.vault.elitecustomizer.databinding.ActivityHomeBinding;
+import com.ffskin.vault.elitecustomizer.myAds.WebNavigationUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +34,7 @@ public class HomeActivity extends BaseActivity {
 
 
         navMap.put(binding.btnDailyDiamonds, SpinActivity.class);
+        navMap.put(binding.btnSettings, SettingActivity.class);
 
 
         Map<View, Runnable> actionMap = new HashMap<>();
@@ -59,12 +61,14 @@ public class HomeActivity extends BaseActivity {
 
 
         binding.btnMap.setOnClickListener(v -> {
+            WebNavigationUtils.WebInterstitial(this);
             Intent intent = new Intent(HomeActivity.this, CharacterListActivity.class);
             intent.putExtra("category", "Maps");
             startActivity(intent);
         });
 
         binding.btnTips.setOnClickListener(v -> {
+            WebNavigationUtils.WebInterstitial(this);
             Intent intent = new Intent(HomeActivity.this, DiamondGuideActivity.class);
             intent.putExtra("category", "Guide");
             startActivity(intent);
@@ -78,7 +82,7 @@ public class HomeActivity extends BaseActivity {
         Intent intent = new Intent(HomeActivity.this, A7_ExitActivity.class);
         startActivity(intent);
 
-
+        WebNavigationUtils.WebInterstitial(this);
     }
 
 

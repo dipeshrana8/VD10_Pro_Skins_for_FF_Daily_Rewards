@@ -42,7 +42,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".spalsh.A6_StartApp"
+            android:name=".spalsh.SettingActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />

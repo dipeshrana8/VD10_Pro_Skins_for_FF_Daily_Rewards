@@ -1,6 +1,5 @@
 package com.ffskin.vault.elitecustomizer.spalsh;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -9,13 +8,13 @@ import com.ffskin.vault.elitecustomizer.databinding.ActivitySettingBinding;
 import java.util.HashMap;
 import java.util.Map;
 
-public class A6_StartApp extends BaseActivity {
+public class SettingActivity extends BaseActivity {
 
     ActivitySettingBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        toolbarHeaderText = "Get Diamonds Guide";
+        toolbarHeaderText = "Setting";
 
 
         super.onCreate(savedInstanceState);
@@ -46,14 +45,6 @@ public class A6_StartApp extends BaseActivity {
             view.setOnClickListener(smartClick);
         }
 
-
-        binding.btnStartApp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(A6_StartApp.this, HomeActivity.class);
-                startActivity(intent);
-            }
-        });
 
     }
 
